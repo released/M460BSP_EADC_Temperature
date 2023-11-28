@@ -198,7 +198,7 @@ void EADC_BandGap_Convert(void)
     Temperature Coefficient  = -1.82
     Temperature sensor offset voltage = 674 mv
 
-    Vtemp (mV) = Tc *　Temp + VTEMP_OS  (mV) 
+    Vtemp (mV) = Tc * Temp + VTEMP_OS  (mV) 
     => Temp = (Vtemp (mV) - VTEMP_OS  (mV) ) / Tc
 */
 void EADC_Temperature_Convert(void)
